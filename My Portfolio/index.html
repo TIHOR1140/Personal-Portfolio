@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit's Portfolio</title>
+  <link rel="icon" type="image/png" href="title.png">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">ROHIT</a>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Educations</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="img1.png" alt="Rohit">
+    </div>
+
+    <div class="home-content">
+      <h1>Prabakaran Rohit</h1>
+      <h3>Computer Science Undergraduate</h3>
+      <p>BSc Computer Science Undergraduate | Cybersecurity & Digital Forensics Enthusiast | Learning Networking | Curious to Learn Software Development | Developing Programming Skills</p>
+    
+      <div class="btn">
+        <a href="resume.pdf">Download CV</a>
+      </div>
+    </div>
+ 
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/prabakaran-rohit-058a61315" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin' ></i> </a>
+      <a href="https://github.com/TIHOR1140" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i> </a>
+      <a href="mailto:rohit004rohit@gmail.com" target="_blank" rel="noopener noreferrer"><i class='bx bxl-gmail'></i></a>
+    </div>  
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2><span>About</span> Me</h2>
+      <p>I am a BSc Computer Science undergraduate building a specialized career in cybersecurity and digital forensics. My expertise is grounded in industry-recognized certifications, including CompTIA Security+ and the CCNA curriculum, which provide a robust foundation in network security and cyber principles. I am actively exploring the intersection of proactive threat intelligence, modern frameworks like Zero Trust, and software development to engineer resilient systems. This portfolio showcases my hands-on projects and my dedication to contributing innovative solutions in the evolving landscape of technology security.</p>
+    </div>
+
+    <div class="floating-img">
+      <div class="badge">
+            <img src="I2CS__1_.png" alt="CCNA_IC">
+      </div>
+      <div class="badge">
+          <img src="blob (1).png" alt="Cybersecurity">
+      </div>
+      <div class="badge">
+          <img src="CCNAITN__1_.png" alt="CCNA_ITN1">
+      </div>
+      <div class="badge">
+          <img src="FTIA.png" alt="Cybersecurity">
+      </div>
+      <div class="badge">
+          <img src="blob.png" alt="Zero Trust">
+      </div>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <h2><span>Education &</span> Experience</h2>
+    
+    <div class="timeline">
+      <div class="timeline-item">
+          <span class="timeline-year">2025 - Present</span>
+        <div class="timeline-content">
+          <h3>BSc Computer Science</h3>
+          <h4>General Sir John Kotelawala Defence University</h4>
+         <p>BSc Computer Science undergraduate student with focus on programming, problem-solving, and technology innovation.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+          <span class="timeline-year">2025</span>
+        <div class="timeline-content">
+          <h3>CCNA Certification</h3>
+          <h4>Introduction to Networks</h4>
+          <p>Comprehensive networking fundamentals and advanced routing & switching concepts</p>
+          <ul class="timeline-units">
+            <li>Network Fundamentals & Architecture</li>
+            <li>IP Addressing & Subnetting</li>
+            <li>Routing Protocols</li>
+            <li>Network Security Best Practices</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+          <span class="timeline-year">2025</span>
+        <div class="timeline-content">
+          <h3>CompTIA Security+</h3>
+          <h4>CompTIA Certification</h4>
+          <p>Earned certificate offered by <b>Kode Kloud</b>, demonstrating competency in network security and risk management</p>
+          <ul class="timeline-units">
+            <li>Threats, Vulnerabilities, & Mitigations</li>
+            <li>Security Operations & Management</li>
+            <li>Cryptography & PKI</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <h2><span>My</span> Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="oar img1.png" alt="Obstacle Avoiding Robot">
+        <div class="project-content">
+            <h3>Obstacle Avoiding Robot</h3>
+            <p>This is an autonomous robot designed to detect and avoid obstacles in real time. It uses ultrasonic or IR sensors along with a microcontroller to make movement decisions. The project demonstrates core concepts of embedded systems, sensor integration, and basic robotics.</p>
+            <button class="project-btn" onclick="openModal(0)">View More</button>
+            <button class="repo-btn"><a href="https://github.com/TIHOR1140/Obstacle-Avoiding-Robot.git" class="btn-link"><i class='bx bxl-github'></i> Repo</a></button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="portfolio ss.png" alt="Personal Portfolio">
+        <div class="project-content">
+            <h3>Personal Portfolio</h3>
+            <p>This portfolio built with a modern, responsive design and smooth animations for a clean and user-friendly experience. The site highlights my hands-on learning journey, real-world project experience, and growth as a technology enthusiast.</p>
+            <button class="project-btn" onclick="openModal(1)">View More</button>
+            <button class="repo-btn"><a href="https://github.com/TIHOR1140/Personal-Portfolio.git" class="btn-link"><i class='bx bxl-github'></i> Repo</a></button>
+        </div>
+      </div>
+
+      <!-- <div class="project-card">
+        <img src="port.jpg" alt="Project 3">
+        <div class="project-content">
+            <h3>Project 3</h3>
+            <p>This is my third project. Short description goes here.</p>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <div id="projectModal" class="modal" onclick="closeModalOnOutsideClick(event)">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <img id="modalImage" src="" alt="Project">
+      <h4 id="modalTitle"></h4>
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+
+  <section class="contact" id="contact">
+    <h2 class="contact-title">Contact <span>Me</span></h2>
+
+    <form class="glass-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="acbb973b-c907-4b18-8495-97dd9336e620">
+
+      <div class="form-group">
+        <input type="text" id="name" name="name" required>
+        <label>Your Name</label>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" name="email" required>
+        <label>Email Address</label>
+      </div>
+
+      <div class="form-group">
+        <textarea id="message" name="message" required></textarea>
+        <label>Your Message</label>
+      </div>
+
+      <button type="submit" class="glass-btn">Send Message</button>
+    </form>
+
+    <!-- <div id="successMessage" class="success-popup">
+      ✔ Message Sent Successfully!
+    </div> -->
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">    
+      <div class="footer-about">
+        <h3>ROHIT</h3>
+        <p>BSc Computer Science Undergraduate | Cybersecurity & Digital Forensics Enthusiast</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#educations">Educations</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact" id="contact">
+        <h3>Contact</h3>
+        <p>Email: rohit004rohit@gmail.com</p>
+        <!-- <p>Phone: </p> -->
+        <div class="footer-icons">
+          <a href="https://www.linkedin.com/in/prabakaran-rohit-058a61315" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://github.com/TIHOR1140" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+          <a href="mailto:rohit004rohit@gmail.com" target="_blank" rel="noopener noreferrer"><i class='bx bxl-gmail'></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Rohit. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const navLinks = document.querySelectorAll(".navbar a");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            navLinks.forEach(n => n.classList.remove("active"));
+            link.classList.add("active");
+        });
+    });
+
+    const sections = document.querySelectorAll('section');
+
+    function updateActiveLink() {
+        let current = '';
+        
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            
+            if (window.scrollY >= (sectionTop - 150)) {
+                current = section.getAttribute('id');
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', updateActiveLink);
+    updateActiveLink();  
+
+    const projects = [
+      {
+        title: "Obstacle Avoiding Robot",
+        image: "oar img1.png",
+        description: "This project focuses on building an autonomous robot capable of navigating its environment by detecting and avoiding obstacles in real time.\n"+"   • Autonomous robot designed to detect and avoid obstacles in real time.\n" +
+        "   • Uses ultrasonic or IR sensors to continuously monitor the surroundings.\n" +
+        "   • A microcontroller processes sensor data and makes movement decisions.\n" +
+        "   • DC motors are controlled using basic obstacle detection logic.\n" +
+        "   • Demonstrates embedded systems, sensor integration, and motor control skills."
+      }, 
+      {
+        title: "Personal Portfolio",
+        image: "portfolio ss.png",
+        description: "    • Responsive design optimized for desktop, tablet, and mobile devices.\n" +
+        "    • Interactive project cards with detailed modal views.\n" +
+        "    • Clean UI with smooth animations and modern glassmorphism effects.\n" +
+        "    • Organized sections for projects, skills, education, and contact.\n" +
+        "    • Easy-to-update structure for adding new projects and content."
+              }
+    ];
+
+    function openModal(index) {
+      const modal = document.getElementById('projectModal');
+      const project = projects[index];
+      
+      document.getElementById('modalImage').src = project.image;
+      document.getElementById('modalTitle').textContent = project.title;
+      document.getElementById('modalDescription').textContent = project.description;
+      
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      document.getElementById('projectModal').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    function closeModalOnOutsideClick(event) {
+      if (event.target.id === 'projectModal') closeModal();
+    }
+
+    document.querySelector(".glass-form").addEventListener("submit", function (e) {
+
+      let name = document.querySelector("input[name='name']");
+      let email = document.querySelector("input[name='email']");
+      let message = document.querySelector("textarea[name='message']");
+
+      let valid = true;
+
+      [name, email, message].forEach(field => {
+          field.classList.remove("error");
+          field.classList.remove("success");
+      });
+
+      if (name.value.trim() === "") {
+          name.classList.add("error");
+          valid = false;
+      } else {
+          name.classList.add("success");
+      }
+
+      let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+      if (!email.value.match(emailPattern)) {
+          email.classList.add("error");
+          valid = false;
+      } else {
+          email.classList.add("success");
+      }
+
+      if (message.value.trim() === "") {
+          message.classList.add("error");
+          valid = false;
+      } else {
+          message.classList.add("success");
+      }
+      
+      if (!valid) {
+          e.preventDefault();  
+      }
+    });
+
+
+    function showSuccessMessage() {
+        let popup = document.getElementById("successMessage");
+        popup.classList.add("show");
+
+        setTimeout(() => {
+            popup.classList.remove("show");
+        }, 3000);
+    }
+  </script>
+
+</body>
+</html>
