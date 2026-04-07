@@ -75,11 +75,7 @@ The form currently uses Web3Forms API. To use your own endpoint:
     
     2. Create a free account and obtain an access key
     
-    3. Replace the existing key in index.html:
-
-  **html**
-  
-  **<input type="hidden" name="access_key" value="YOUR_NEW_KEY">**
+    3. Replace the existing key in index.html
   
 
 Portfolio: [tihor1140.github.io/Personal-Portfolio](https://portfolioofrohit.netlify.app/)
